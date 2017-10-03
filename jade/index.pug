@@ -1,0 +1,136 @@
+- var appName = "Avarda smart shop";
+- var title = "Avarda smart shop — зелёный свет для Вашего бизнеса";
+- var description = "Автоматически выгружайте базу товаров в магазин-агрегатор и получайте клиентов. Бесплатно.";
+- var statusBarColor = "#158700";
+- var metrikaId = 12345678;
+- var cssFramework = "assets/css/bulma.css";
+
+
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="description", content=description)
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title= title
+
+        //Disable tap highlight on IE
+        meta(name="msapplication-tap-highlight", content="no")
+
+        //Web Application Manifest
+        link(rel="manifest", href="manifest.json")
+
+        //Add to homescreen for Chrome on Android
+        meta(name="mobile-web-app-capable", content="yes")
+        meta(name="application-name", content=appName)
+        link(rel="icon", sizes="192x192", href="images/touch/chrome-touch-icon-192x192.png")
+
+        //Add to homescreen for Safari on iOS
+        meta(name="apple-mobile-web-app-capable", content="yes")
+        meta(name="apple-mobile-web-app-status-bar-style", content="black")
+        meta(name="apple-mobile-web-app-title", content=appName)
+        link(rel="apple-touch-icon", href="images/touch/apple-touch-icon.png")
+
+        //Tile icon for Win8 (144x144 + tile color)
+        meta(name="msapplication-TileImage", content="images/touch/ms-touch-icon-144x144-precomposed.png")
+        meta(name="msapplication-TileColor", content=statusBarColor)
+
+        //Color the status bar on mobile devices
+        meta(name="theme-color", content=statusBarColor)
+
+        //CSS framework
+        link(rel="stylesheet", href=cssFramework)
+
+        //if IE
+          script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js')
+    body
+        .container
+            nav.navbar#navbar
+                .navbar-brand
+                    a.navbar-item(href='#')
+                        img(src='', alt='Avarda smart shop')
+                    .navbar-burger
+                        span
+                        span
+                        span
+                .navbar-menu
+                    .navbar-end
+                        a.navbar-item Возможности
+                        a.navbar-item Особенности
+                        a.navbar-item Партнёры
+                        a.navbar-item Контакты
+        header.hero.is-fullheight
+            .hero-head
+            .hero-body
+            .hero-foot
+        section.hero#contacts
+            .hero-body
+                .container
+                    h1.title.has-text-centered Оставить заявку
+                    h2.subtitle.has-text-centered.
+                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
+                        Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
+                    form
+                        .columns.is-centered
+                            .column.is-3
+                                .field
+                                    .control.has-icons-left
+                                        input(type="text", placeholder="Ваше имя").input
+                                        span.icon.is-small.is-left: i.fa.fa-user(aria-hidden="true")
+                            .column.is-3
+                                .field
+                                    .control.has-icons-left
+                                        input(type="text", placeholder="Телефон").input
+                                        span.icon.is-small.is-left: i.fa.fa-phone(aria-hidden="true")
+                            .column.is-3
+                                .field
+                                    .control.has-icons-left
+                                        input(type="email", placeholder="E-mail").input
+                                        span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
+                        .has-text-centered
+                            button.button.is-primary(type="submit") Подключиться к партнёрской программе
+
+
+        footer.footer
+            .container
+        //Fontawesome
+        script(src="https://use.fontawesome.com/a22168e44f.js")
+        // Yandex.Metrika counter
+        script.
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function () {
+                    try {
+                        w.yaCounter!{JSON.stringify(metrikaId)} = new Ya.Metrika({
+                            id: !{JSON.stringify(metrikaId)},
+                            clickmap: true,
+                            trackLinks: true,
+                            accurateTrackBounce: true,
+                            webvisor: true,
+                            trackHash: true
+                        });
+                    } catch (e) {
+                    }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () {
+                        n.parentNode.insertBefore(s, n);
+                    };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else {
+                    f();
+                }
+            })
+            (document, window, "yandex_metrika_callbacks"
+            )
+            ;
+        noscript
+            div: img(src="https://mc.yandex.ru/watch/" + metrikaId, style="position:absolute; left:-9999px;", alt="")
+
