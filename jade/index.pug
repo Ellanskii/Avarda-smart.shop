@@ -46,6 +46,9 @@ html
         if cssFramework
             link(rel="stylesheet", href=cssFramework)
 
+        //TODO refactor temporary stylesheets
+        link(rel="stylesheet", href='assets/css/temp.css')
+
         //if IE
           script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js')
     body
@@ -103,6 +106,10 @@ html
 
         footer.footer
             .container
+                .socialPages
+                    .hex
+                        span.icon.is-medium: i.fa.fa-envelope
+
 
         .modal#modal
             .modal-background.modal-toggle(data-target='modal')
