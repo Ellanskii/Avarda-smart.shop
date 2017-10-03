@@ -178,13 +178,13 @@
       document.addEventListener('DOMContentLoaded', function () {
       
           // Get all "open-modal" elements
-          var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.modal-toggle'), 0);
+          var $modalTogglers = Array.prototype.slice.call(document.querySelectorAll('.modal-toggle'), 0);
       
           // Check if there are any modal-togglers
-          if ($navbarBurgers.length > 0) {
+          if ($modalTogglers.length > 0) {
       
               // Add a click event on each of them
-              $navbarBurgers.forEach(function ($el) {
+              $modalTogglers.forEach(function ($el) {
                   $el.addEventListener('click', function () {
       
                       // Get the target from the "data-target" attribute
