@@ -36,19 +36,24 @@
           <div class="navbar-burger" data-target="navbar"><span></span><span></span><span></span></div>
         </div>
         <div class="navbar-menu" id="navbar">
-          <div class="navbar-end"><a class="navbar-item">Возможности</a><a class="navbar-item">Особенности</a><a class="navbar-item">Партнёры</a><a class="navbar-item">Контакты</a></div>
+          <div class="navbar-end"><a class="navbar-item" href="#possibilities">Возможности</a><a class="navbar-item" href="#features">Особенности</a><a class="navbar-item" href="#partners">Партнёры</a><a class="navbar-item" href="#contacts">Контакты</a></div>
         </div>
       </nav>
     </div>
-    <header class="hero is-fullheight">
+    <header class="hero is-large hex-bg is-primary">
       <div class="hero-head"></div>
       <div class="hero-body"></div>
       <div class="hero-foot"></div>
     </header>
-    <section class="hero" id="contacts">
+    <section class="hero is-medium" id="possibilities">
+      <div class="hero-body">
+        <button class="modal-toggle button is-primary" data-target="modal">Подключиться к партнёрской программе</button>
+      </div>
+    </section>
+    <section class="hero is-medium" id="contacts">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title has-text-centered">Оставить заявку</h1>
+          <h1 class="title has-text-centered is-spaced">Оставить заявку</h1>
           <h2 class="subtitle has-text-centered">
             У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
             Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
@@ -87,10 +92,20 @@
     <footer class="footer">
       <div class="container"></div>
     </footer>
-    <!--Fontawesome-->
-    <script src="https://use.fontawesome.com/a22168e44f.js"></script>
+    <div class="modal" id="modal">
+      <div class="modal-background modal-toggle" data-target="modal"></div>
+      <div class="modal-content">
+        <p class="box">
+          тут форма связи, не отсылать же вниз на форму с такой же кнопкой.
+          впрочем, контент и смысл всё равно никого не волнуют, можно и так оставить.
+        </p>
+      </div>
+      <button class="modal-close is-large modal-toggle" data-target="modal"></button>
+    </div>
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Fontawesome-->
+    <script src="https://use.fontawesome.com/a22168e44f.js"></script>
     <!-- Yandex.Metrika counter-->
     <script>
       (function (d, w, c) {
@@ -150,6 +165,33 @@
       
                       // Toggle the class on both the "navbar-burger" and the "navbar-menu"
                       $el.classList.toggle('is-active');
+                      $target.classList.toggle('is-active');
+      
+                  });
+              });
+          }
+      
+      });
+    </script>
+    <!--Bulma modal-->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+      
+          // Get all "open-modal" elements
+          var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.modal-toggle'), 0);
+      
+          // Check if there are any modal-togglers
+          if ($navbarBurgers.length > 0) {
+      
+              // Add a click event on each of them
+              $navbarBurgers.forEach(function ($el) {
+                  $el.addEventListener('click', function () {
+      
+                      // Get the target from the "data-target" attribute
+                      var target = $el.dataset.target;
+                      var $target = document.getElementById(target);
+      
+                      // Toggle the class on the "modal"
                       $target.classList.toggle('is-active');
       
                   });

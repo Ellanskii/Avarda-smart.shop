@@ -60,18 +60,24 @@ html
                         span
                 .navbar-menu#navbar
                     .navbar-end
-                        a.navbar-item Возможности
-                        a.navbar-item Особенности
-                        a.navbar-item Партнёры
-                        a.navbar-item Контакты
-        header.hero.is-fullheight
+                        a.navbar-item(href="#possibilities") Возможности
+                        a.navbar-item(href="#features") Особенности
+                        a.navbar-item(href="#partners") Партнёры
+                        a.navbar-item(href="#contacts") Контакты
+
+        header.hero.is-large.hex-bg.is-primary
             .hero-head
             .hero-body
             .hero-foot
-        section.hero#contacts
+
+        section.hero.is-medium#possibilities
+            .hero-body
+                button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
+
+        section.hero.is-medium#contacts
             .hero-body
                 .container
-                    h1.title.has-text-centered Оставить заявку
+                    h1.title.has-text-centered.is-spaced Оставить заявку
                     h2.subtitle.has-text-centered.
                         У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
                         Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
@@ -95,18 +101,25 @@ html
                         .has-text-centered
                             button.button.is-primary(type="submit") Подключиться к партнёрской программе
 
-
         footer.footer
             .container
 
+        .modal#modal
+            .modal-background.modal-toggle(data-target='modal')
+            .modal-content
+                p.box.
+                    тут форма связи, не отсылать же вниз на форму с такой же кнопкой.
+                    впрочем, контент и смысл всё равно никого не волнуют, можно и так оставить.
+            button.modal-close.is-large.modal-toggle(data-target='modal')
 
-        //Fontawesome
-        if fontawesomeCDN
-            script(src="https://use.fontawesome.com/a22168e44f.js")
 
         //jQuery
         if jQueryCDN
             script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+
+        //Fontawesome
+        if fontawesomeCDN
+            script(src="https://use.fontawesome.com/a22168e44f.js")
 
         // Yandex.Metrika counter
         script.
@@ -145,6 +158,7 @@ html
             ;
         noscript
             div: img(src="https://mc.yandex.ru/watch/" + metrikaId, style="position:absolute; left:-9999px;", alt="")
+
         //Bulma navbar
         script.
             document.addEventListener('DOMContentLoaded', function () {
@@ -165,6 +179,32 @@ html
 
                             // Toggle the class on both the "navbar-burger" and the "navbar-menu"
                             $el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+
+                        });
+                    });
+                }
+
+            });
+        //Bulma modal
+        script.
+            document.addEventListener('DOMContentLoaded', function () {
+
+                // Get all "open-modal" elements
+                var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.modal-toggle'), 0);
+
+                // Check if there are any modal-togglers
+                if ($navbarBurgers.length > 0) {
+
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach(function ($el) {
+                        $el.addEventListener('click', function () {
+
+                            // Get the target from the "data-target" attribute
+                            var target = $el.dataset.target;
+                            var $target = document.getElementById(target);
+
+                            // Toggle the class on the "modal"
                             $target.classList.toggle('is-active');
 
                         });
