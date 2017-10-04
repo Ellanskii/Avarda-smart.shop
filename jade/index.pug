@@ -47,7 +47,7 @@ html
             link(rel="stylesheet", href=cssFramework)
 
         //TODO refactor temporary stylesheets
-        link(rel="stylesheet", href='assets/css/temp.css')
+        link(rel="stylesheet", href='assets/css/combined.css')
 
         //if IE
           script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js')
@@ -56,7 +56,7 @@ html
             nav.navbar
                 .navbar-brand
                     a.navbar-item(href='#')
-                        img(src='', alt='Avarda smart shop')
+                        img(src='assets/images/avarda_shop.svg', alt='Avarda smart shop', width="165px")
                     .navbar-burger(data-target="navbar")
                         span
                         span
@@ -68,14 +68,72 @@ html
                         a.navbar-item(href="#partners") Партнёры
                         a.navbar-item(href="#contacts") Контакты
 
-        header.hero.is-large.hex-bg.is-primary
+        header.hero.is-large
             .hero-head
             .hero-body
             .hero-foot
 
         section.hero.is-medium#possibilities
             .hero-body
-                button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
+                .container
+                    h1.title.has-text-centered Возможности
+                    .columns
+                        .column.is-4.content
+                            ul
+                                li
+                                    h2.has-text-primary Предварительный заказ
+                                    p.
+                                        Вы можете собрать предварительный заказ не выходя из дома
+                                li
+                                    h2.has-text-primary Интеграция склада
+                                    p.
+                                        Подключение базы данных по складу из  АVARDA ERP в интернет-магазин Smart.shop
+                                li
+                                    h2.has-text-primary Личный интернет-магазин
+                                    p.
+                                        Вы можете создать свой интернет-магазин на базе AVARDA Smart.shop с полной интеграцией
+                        .column.is-4.is-hidden-touch
+                        .column.is-4.content.has-text-right-tablet
+                            ul
+                                li
+                                    h2.has-text-primary Умная тележка
+                                    p.
+                                        В Smart.shop Вы получаете QR-код заказа, и с помощью умной тележки можете найти все свои покупки
+                                li
+                                    h2.has-text-primary Подключение личного интернет-магазина
+                                    p.
+                                        Вы можете подключить свой личный интернет-магазин к Smart.shop, с полной интеграцией товара через AVARDA
+                                li
+                                    h2.has-text-primary Доставка
+                                    p.
+                                        Оформляя заказы через Smart.shop, Вы получаете возможность доставки товара по указанному адресу
+                    .has-text-centered
+                        button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
+
+        section.hero.is-medium#features
+            .hero-body
+                .container
+                    h1.title.has-text-centered Smart-услуга «умная тележка»
+                    .columns
+                        .column.is-half
+                            img(src="assets/images/cart.jpg", alt="Умная тележка")
+                        .column.is-half.content.is-medium
+                            ol
+                                li.
+                                    Заказывая товар в интернет-магазине Smart.shop,
+                                    Вам автоматически присваивается номер заказа и QR-код.
+                                    Это упрощает процесс покупки в супермаркете.
+                                li.
+                                    С помощью встроенного дисплея “Умной тележки” можно отсканировать QR-код и получить
+                                    всю необходимую информацию о Вашей покупке.
+                                li.
+                                    Вам не нужно бродить по всему залу, на дисплее будет отображено,
+                                    в какой секции и на какой полке находится товар, заказанный через Smart.shop
+                                li.
+                                    Полная информация о товаре супермаркета, акции и новые выгодные предложения -
+                                    всё это Вы сможете получить пользуясь услугами Smart.shop
+                    .has-text-centered
+                        button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
 
         section.hero.is-medium#contacts
             .hero-body
@@ -111,12 +169,32 @@ html
                         span.icon.is-medium: i.fa.fa-envelope
 
 
-        .modal#modal
+        section.modal#modal
             .modal-background.modal-toggle(data-target='modal')
-            .modal-content
-                p.box.
-                    тут форма связи, не отсылать же вниз на форму с такой же кнопкой.
-                    впрочем, контент и смысл всё равно никого не волнуют, можно и так оставить.
+            .modal-content.box
+                h1.title.has-text-centered.is-spaced Оставить заявку
+                    h2.subtitle.has-text-centered.
+                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
+                        Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
+                form
+                    .columns.is-centered.is-multiline
+                        .column.is-7
+                            .field
+                                .control.has-icons-left
+                                    input(type="text", placeholder="Ваше имя").input
+                                    span.icon.is-small.is-left: i.fa.fa-user(aria-hidden="true")
+                        .column.is-7
+                            .field
+                                .control.has-icons-left
+                                    input(type="text", placeholder="Телефон").input
+                                    span.icon.is-small.is-left: i.fa.fa-phone(aria-hidden="true")
+                        .column.is-7
+                            .field
+                                .control.has-icons-left
+                                    input(type="email", placeholder="E-mail").input
+                                    span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
+                    .has-text-centered
+                        button.button.is-primary(type="submit") Подключиться к партнёрской программе
             button.modal-close.is-large.modal-toggle(data-target='modal')
 
 

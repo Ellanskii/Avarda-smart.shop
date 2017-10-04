@@ -1,0 +1,5 @@
+header {
+  background: url(../images/arc-top.png) no-repeat top, url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), url(../images/dementia.jpg) no-repeat, black;
+  background-size: contain,contain,20px,cover; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiLi4vY29tYmluZWQuY3NzIiwKCSJzb3VyY2VSb290IjogInNjc3MiLAoJInNvdXJjZXMiOiBbCgkJImNvbWJpbmVkLnNjc3MiLAoJCSJfaGVhZGVyLnNjc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiQUNBQSxBQUFBLE1BQU0sQ0FBQTtFQUNKLFVBQVUsRUFBRSwwQkFBMEIsQ0FBQyxTQUFTLENBQUMsR0FBRyxFQUFDLDZCQUE2QixDQUFDLFNBQVMsQ0FBQyxNQUFNLEVBQUMseUJBQXlCLEVBQUMsMkJBQTJCLENBQUMsU0FBUyxFQUFFLEtBQUs7RUFDMUssZUFBZSxFQUFFLDBCQUEwQixHQUM1QyIKfQ== */
