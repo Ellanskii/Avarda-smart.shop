@@ -1,4 +1,10 @@
 header{
-  background: url(../images/arc-top.png) no-repeat top,url(../images/arc-bottom.png) no-repeat bottom,url(../images/hex-bg.png),url(../images/dementia.jpg) no-repeat, black;
-  background-size: contain,contain,20px,cover;
+  .hero-body{
+    background: url(../images/arc-top.png) no-repeat top,url(../images/arc-bottom.png) no-repeat bottom,url(../images/hex-bg.png),url(../images/dementia.jpg) no-repeat, black;
+    background-size: contain,contain,20px,cover;
+  }
+  .hero-foot{
+    background:url(../images/hex-bg.png),linear-gradient(180deg, #828282 0%,#4F4F4F 100%);
+    background-size: 10px,100%;
+  }
 }
