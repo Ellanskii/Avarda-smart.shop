@@ -68,13 +68,17 @@ html
                         a.navbar-item(href="#partners") Партнёры
                         a.navbar-item(href="#contacts") Контакты
 
-        header.hero.is-large
+        header.hero
+            .hero-head
             .hero-body
+                .columns.container
+                    .column.is-9
+                    .column.is-3
+                        img(src="assets/images/logo_avarda.svg").image
+                        h1.title.has-text-primary Зелёный свет для Вашего бизнеса!
             .hero-foot.has-text-centered
                 a(href="#possibilities").has-shadow.has-text-white
                     span.icon.is-large: i.fa.fa-chevron-down
-
-
 
         section.hero.is-medium#possibilities
             .hero-body
