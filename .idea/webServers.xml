@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="88a6615d-d28a-42f3-979f-146cdd37d13b" name="Borushko" url="http://ftp.ih682180.myihor.ru">
+        <fileTransfer host="ftp.ih682180.myihor.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

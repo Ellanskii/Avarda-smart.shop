@@ -1,10 +1,14 @@
 header {
   min-height: calc(100vh - 52px); }
   header .hero-body {
-    background: url(../images/arc-top.png) no-repeat top, url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), url(../images/dementia.jpg) no-repeat, black;
-    background-size: contain,contain,20px,cover; }
+    background: url(../images/arc-top.png) no-repeat top, url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(to bottom, transparent 0%, transparent 90%, #828282 100%), url(../images/auto.png) no-repeat left center, black;
+    background-size: contain,contain,10px,100%,80%; }
   header .hero-foot {
     background: url(../images/hex-bg.png), linear-gradient(180deg, #828282 0%, #4F4F4F 100%);
-    background-size: 10px,100%; }
+    background-size: 7px,100%; }
 
-/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiLi4vY29tYmluZWQuY3NzIiwKCSJzb3VyY2VSb290IjogInNjc3MiLAoJInNvdXJjZXMiOiBbCgkJImNvbWJpbmVkLnNjc3MiLAoJCSJfaGVhZGVyLnNjc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiQUNBQSxBQUFBLE1BQU0sQ0FBQTtFQUNKLFVBQVUsRUFBRSxrQkFBa0IsR0FTL0I7RUFWRCxBQUVFLE1BRkksQ0FFSixVQUFVLENBQUE7SUFDUixVQUFVLEVBQUUsMEJBQTBCLENBQUMsU0FBUyxDQUFDLEdBQUcsRUFBQyw2QkFBNkIsQ0FBQyxTQUFTLENBQUMsTUFBTSxFQUFDLHlCQUF5QixFQUFDLDJCQUEyQixDQUFDLFNBQVMsRUFBRSxLQUFLO0lBQzFLLGVBQWUsRUFBRSwwQkFBMEIsR0FDNUM7RUFMSCxBQU1FLE1BTkksQ0FNSixVQUFVLENBQUE7SUFDUixVQUFVLEVBQUMseUJBQXlCLEVBQUMsaURBQWdEO0lBQ3JGLGVBQWUsRUFBRSxTQUFTLEdBQzNCIgp9 */
+footer {
+  background: url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(180deg, #8D8D8D 0%, #6E6E6E 4.42%, #252525 9.94%, #111111 86.19%, #4D4D4D 100%);
+  background-size: contain, 7px, 100%; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiLi4vY29tYmluZWQuY3NzIiwKCSJzb3VyY2VSb290IjogInNjc3MiLAoJInNvdXJjZXMiOiBbCgkJImNvbWJpbmVkLnNjc3MiLAoJCSJfaGVhZGVyLnNjc3MiLAoJCSJfZm9vdGVyLnNjc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiQUNBQSxBQUFBLE1BQU0sQ0FBQTtFQUNKLFVBQVUsRUFBRSxrQkFBa0IsR0FTL0I7RUFWRCxBQUVFLE1BRkksQ0FFSixVQUFVLENBQUE7SUFDUixVQUFVLEVBQUUsMEJBQTBCLENBQUMsU0FBUyxDQUFDLEdBQUcsRUFBQyw2QkFBNkIsQ0FBQyxTQUFTLENBQUMsTUFBTSxFQUFFLHlCQUF5QixFQUFFLHlFQUEyRSxFQUFFLHVCQUF1QixDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsTUFBTSxFQUFFLEtBQUs7SUFDalEsZUFBZSxFQUFFLDZCQUE2QixHQUMvQztFQUxILEFBTUUsTUFOSSxDQU1KLFVBQVUsQ0FBQTtJQUNSLFVBQVUsRUFBQyx5QkFBeUIsRUFBQyxpREFBZ0Q7SUFDckYsZUFBZSxFQUFFLFFBQVEsR0FDMUI7O0FDVEgsQUFBQSxNQUFNLENBQUE7RUFDSixVQUFVLEVBQUMsNkJBQTZCLENBQUMsU0FBUyxDQUFDLE1BQU0sRUFBRSx5QkFBeUIsRUFBQywrRkFBK0Y7RUFDcEwsZUFBZSxFQUFFLGtCQUFrQixHQUNwQyIKfQ== */
