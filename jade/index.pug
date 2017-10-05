@@ -77,8 +77,8 @@ html
                         .column.is-3.has-text-centered
                             img(src="assets/images/logo_header.png")
                             h1.title.has-text-primary Зелёный свет для Вашего бизнеса!
-            .hero-foot.has-text-centered
-                a(href="#possibilities").has-shadow.has-text-white
+            a(href="#possibilities").has-text-white
+                .hero-foot.has-text-centered
                     span.icon.is-large: i.fa.fa-chevron-down
 
         section.hero.is-medium#possibilities
@@ -86,8 +86,8 @@ html
                 .container
                     h1.title.has-text-centered Возможности
                     .columns
-                        .column.is-4.content
-                            ul
+                        .column.is-4-desktop.is-6-tablet.content
+                            ul.is-marginless-touch.is-markerless
                                 li
                                     h2.has-text-primary Предварительный заказ
                                     p.
@@ -100,9 +100,11 @@ html
                                     h2.has-text-primary Личный интернет-магазин
                                     p.
                                         Вы можете создать свой интернет-магазин на базе AVARDA Smart.shop с полной интеграцией
-                        .column.is-4.is-hidden-touch
-                        .column.is-4.content.has-text-right-tablet
-                            ul
+                        .column.is-4.is-hidden-touch.has-vcentered-content
+                            .spider
+                                img(src="assets/images/spider.png")
+                        .column.is-6-tablet.is-4-desktop.content.has-text-right-tablet
+                            ul.is-markerless
                                 li
                                     h2.has-text-primary Умная тележка
                                     p.
@@ -123,8 +125,9 @@ html
                 .container
                     h1.title.has-text-centered Smart-услуга «умная тележка»
                     .columns
-                        .column.is-half
-                            img(src="assets/images/cart.jpg", alt="Умная тележка")
+                        .column.is-half.has-vcentered-content
+                            .cart
+                                img(src="assets/images/cart.jpg", alt="Умная тележка")
                         .column.is-half.content.is-medium
                             ol
                                 li.

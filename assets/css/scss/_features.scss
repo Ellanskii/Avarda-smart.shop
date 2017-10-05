@@ -1,0 +1,30 @@
+#features{
+  ol{
+    margin-left: 4em;
+    list-style: none;
+    counter-reset: listNumbering!important;
+    li {
+      font-size: 1em;
+      counter-increment: listNumbering;
+      margin-top: 1em;
+    }
+
+    li:before {
+
+      font-size: 45px;
+      font-weight: bolder;
+      color: #FFFFFF;
+      text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+      margin-left: -2em;
+      text-align: center;
+      position: absolute;
+      display: block;
+      width: 1.5em;
+      height: 1.6425em;
+      line-height: 1.5em;
+      background: url("../images/marker-bg.png") no-repeat;
+      background-size: cover;
+      content: counter(listNumbering);
+    }
+  }
+}
