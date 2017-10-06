@@ -39,7 +39,7 @@ header {
     content: counter(listNumbering); }
 
 footer {
-  background: url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(180deg, #8D8D8D 0%, #6E6E6E 4.42%, #252525 9.94%, #111111 86.19%, #4D4D4D 100%);
+  background: url(../images/arc-footer.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(180deg, #8D8D8D 0%, #6E6E6E 4.42%, #252525 9.94%, #111111 86.19%, #4D4D4D 100%);
   background-size: contain, 7px, 100%; }
 
 .copyright {
