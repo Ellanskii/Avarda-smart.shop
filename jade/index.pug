@@ -149,7 +149,24 @@ html
                                     Полная информация о товаре супермаркета, акции и новые выгодные предложения -
                                     всё это Вы сможете получить пользуясь услугами Smart.shop
                     .has-text-centered
-                        button.modal-toggle.button.is-warning(data-target='modal') Подключиться к партнёрской программе
+                        button.modal-toggle.button.is-warning(data-target='modal') Подключить магазин
+
+            a(href="#partners").has-text-white
+                .hero-foot.has-text-centered.cellular
+                    span.icon.is-large: i.fa.fa-chevron-down
+        section.hero.is-fullheight#partners
+            .hero-body
+                .container
+                    h1.title.has-text-centered Наши партнёры
+                    .columns.is-centered.has-text-centered.is-mobile
+                        .column.is-4-mobile.is-3-tablet.is-2-desktop.has-vcentered-content
+                            a(href="#"): img(src="assets/images/lider.png", alt="")
+                        .column.is-4-mobile.is-3-tablet.is-2-desktop.star
+                            a(href="#"): img(src="assets/images/baucenter.png", alt="")
+                            img(src="assets/images/logo_header.png", alt="")
+                        .column.is-4-mobile.is-3-tablet.is-2-desktop.has-vcentered-content
+                            a(href="#"): img(src="assets/images/polushka.png", alt="")
+
 
             a(href="#contacts").has-text-white
                 .hero-foot.has-text-centered.cellular
@@ -179,7 +196,7 @@ html
                                         input(type="email", placeholder="E-mail").input
                                         span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
                         .has-text-centered
-                            button.button.is-warning(type="submit") Подключиться к партнёрской программе
+                            button.button.is-warning(type="submit") Подключить магазин
 
         footer.footer
             .container
