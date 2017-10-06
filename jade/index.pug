@@ -118,7 +118,7 @@ html
                                     p.
                                         Оформляя заказы через Smart.shop, Вы получаете возможность доставки товара по указанному адресу
                     .has-text-centered
-                        button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
+                        button.modal-toggle.button.is-warning(data-target='modal') Подключиться к партнёрской программе
 
 
             a(href="#features").has-text-white
@@ -148,7 +148,7 @@ html
                                     Полная информация о товаре супермаркета, акции и новые выгодные предложения -
                                     всё это Вы сможете получить пользуясь услугами Smart.shop
                     .has-text-centered
-                        button.modal-toggle.button.is-primary(data-target='modal') Подключиться к партнёрской программе
+                        button.modal-toggle.button.is-warning(data-target='modal') Подключиться к партнёрской программе
 
             a(href="#contacts").has-text-white
                 .hero-foot.has-text-centered.cellular
@@ -178,13 +178,24 @@ html
                                         input(type="email", placeholder="E-mail").input
                                         span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
                         .has-text-centered
-                            button.button.is-primary(type="submit") Подключиться к партнёрской программе
+                            button.button.is-warning(type="submit") Подключиться к партнёрской программе
 
         footer.footer
             .container
-                .socialPages
-                    .hex
-                        span.icon.is-medium: i.fa.fa-envelope
+                .socialPages.has-text-centered
+                    a.hex.has-text-white(href="#")
+                        span.icon.is-large: i.fa.fa-2x.fa-vk
+                    .spacer
+                    a.hex.has-text-white(href="#")
+                        span.icon.is-large: i.fa.fa-2x.fa-facebook
+                    .spacer
+                    a.hex.has-text-white(href="#")
+                        span.icon.is-large: i.fa.fa-2x.fa-twitter
+                    .spacer
+                    a.hex.has-text-white(href="#")
+                        span.icon.is-large: i.fa.fa-2x.fa-telegram
+                    .spacer
+                .copyright.has-text-centered.has-text-grey-light © ООО «Ансофт Девелопмент»
 
 
         section.modal#modal
@@ -212,7 +223,7 @@ html
                                     input(type="email", placeholder="E-mail").input
                                     span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
                     .has-text-centered
-                        button.button.is-primary(type="submit") Подключиться к партнёрской программе
+                        button.button.is-warning(type="submit") Отправить
             button.modal-close.is-large.modal-toggle(data-target='modal')
 
 
