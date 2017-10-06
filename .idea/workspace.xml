@@ -2,6 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcc288d-4d97-4400-bf35-4bf0c583097a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/base/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/base/generic.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/base/helpers.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/base/minireset.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/breadcrumb.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/card.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/dropdown.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/level.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/media.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/menu.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/message.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/modal.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/nav.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/navbar.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/pagination.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/panel.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/components/tabs.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/box.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/button.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/container.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/content.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/form.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/icon.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/image.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/notification.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/other.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/progress.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/table.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/tag.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/elements/title.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/grid/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/grid/columns.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/grid/tiles.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/layout/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/layout/footer.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/layout/hero.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/layout/section.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/_all.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/animations.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/controls.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/derived-variables.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/functions.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/initial-variables.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/mixins.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sass/utilities/variables.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/combined.css" afterPath="$PROJECT_DIR$/assets/css/combined.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/scss/_header.scss" afterPath="$PROJECT_DIR$/assets/css/scss/_header.scss" />
@@ -22,32 +70,21 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jade/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="167" column="72" lean-forward="false" selection-start-line="167" selection-start-column="72" selection-end-line="167" selection-end-column="72" />
+            <state relative-caret-position="289">
+              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1507295710146" expanded="false" signature="14911:15029" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="10526:11722" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="11738:13368" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="13664:14925" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="14942:15060" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="15099:16164" ph="..." />
+                <marker date="1507298769139" expanded="false" signature="16201:17164" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/scss/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/scss/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -57,41 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/temp.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="combined.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="combined.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/scss/combined.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/scss/_navbar.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_features.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/scss/_features.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="575">
+              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -101,8 +108,28 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>зкш</find>
+      <find>зк</find>
+      <find>з</find>
+      <find>p</find>
+      <find>pr</find>
+      <find>pri</find>
+      <find>prim</find>
+      <find>prima</find>
+      <find>primar</find>
+      <find>primary</find>
+      <find>$primary</find>
+      <find>$rimary</find>
+      <find>$</find>
       <find>Подключиться к партнёрской программе</find>
+      <find>has-text-primary</find>
     </findStrings>
+    <replaceStrings>
+      <replace>avardaGreen</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\MI\Desktop\avarda\assets\css\sass\base</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,9 +143,10 @@
         <option value="$PROJECT_DIR$/assets/css/temp.css" />
         <option value="$PROJECT_DIR$/assets/css/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/assets/css/scss/_navbar.scss" />
-        <option value="$PROJECT_DIR$/assets/css/scss/combined.scss" />
-        <option value="$PROJECT_DIR$/jade/index.pug" />
         <option value="$PROJECT_DIR$/assets/css/scss/_header.scss" />
+        <option value="$PROJECT_DIR$/assets/css/sass/base/_all.sass" />
+        <option value="$PROJECT_DIR$/jade/index.pug" />
+        <option value="$PROJECT_DIR$/assets/css/scss/combined.scss" />
       </list>
     </option>
   </component>
@@ -231,7 +259,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avarda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avarda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,10 +307,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MI\Desktop\avarda\assets\css" />
       <recent name="C:\Users\MI\Desktop\avarda\assets\images" />
       <recent name="C:\Users\MI\Desktop\avarda\assets" />
       <recent name="C:\Users\MI\Desktop\avarda\assets\images\touch" />
-      <recent name="C:\Users\MI\Desktop\avarda\assets\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,12 +405,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507024192759</updated>
       <workItem from="1507024194072" duration="20840000" />
-      <workItem from="1507109891424" duration="37223000" />
+      <workItem from="1507109891424" duration="39704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58063000" />
+    <option name="totallyTimeSpent" value="60544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,13 +461,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1507295710146" expanded="false" signature="14911:15029" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="10526:11722" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="11738:13368" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="13664:14925" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="14942:15060" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="15099:16164" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="16201:17164" ph="..." />
           </folding>
         </state>
       </provider>
@@ -528,34 +581,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/scss/combined.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/scss/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="100">
+          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/base/generic.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/base/minireset.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/components/_all.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/components/menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/base/helpers.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/elements/title.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sass/base/_all.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="167" column="72" lean-forward="false" selection-start-line="167" selection-start-column="72" selection-end-line="167" selection-end-column="72" />
+        <state relative-caret-position="289">
+          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1507295710146" expanded="false" signature="14911:15029" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="10526:11722" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="11738:13368" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="13664:14925" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="14942:15060" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="15099:16164" ph="..." />
+            <marker date="1507298769139" expanded="false" signature="16201:17164" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/scss/_header.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/scss/combined.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="575">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>

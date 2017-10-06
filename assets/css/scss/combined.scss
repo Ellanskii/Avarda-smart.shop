@@ -1,3 +1,5 @@
+$avardaGreen: #7AAA1C;
+
 @import "navbar";
 @import "header";
 @import "features";
@@ -10,7 +12,14 @@
   display: flex;
   align-items: center;
 }
+.has-margin-auto{
+  display: block;
+  margin:0 auto;
+}
 .star{
   background: url('../images/star.png') center no-repeat;
   background-size: contain;
+}
+.avardaGreen{
+  color:$avardaGreen !important;
 }
