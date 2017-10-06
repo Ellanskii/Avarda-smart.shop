@@ -180,22 +180,22 @@ html
                     h2.subtitle.has-text-centered.
                         У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
                         Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
-                    form
+                    form(action="mailer.php", method="post")
                         .columns.is-centered
                             .column.is-3
                                 .field
                                     .control.has-icons-left
-                                        input(type="text", placeholder="Ваше имя").input
+                                        input(type="text", placeholder="Ваше имя", name="name", required).input
                                         span.icon.is-small.is-left: i.fa.fa-user(aria-hidden="true")
                             .column.is-3
                                 .field
                                     .control.has-icons-left
-                                        input(type="text", placeholder="Телефон").input
+                                        input(type="tel", placeholder="Телефон", name="phone", required).input
                                         span.icon.is-small.is-left: i.fa.fa-phone(aria-hidden="true")
                             .column.is-3
                                 .field
                                     .control.has-icons-left
-                                        input(type="email", placeholder="E-mail").input
+                                        input(type="email", placeholder="E-mail", name="email").input
                                         span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
                         .has-text-centered
                             button.button.is-warning(type="submit") Подключить магазин
@@ -234,22 +234,22 @@ html
                     h2.subtitle.has-text-centered.
                         У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
                         Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
-                form
+                form(action="mailer.php", method="post")
                     .columns.is-centered.is-multiline
                         .column.is-7
                             .field
                                 .control.has-icons-left
-                                    input(type="text", placeholder="Ваше имя").input
+                                    input(type="text", placeholder="Ваше имя", name="name", required).input
                                     span.icon.is-small.is-left: i.fa.fa-user(aria-hidden="true")
                         .column.is-7
                             .field
                                 .control.has-icons-left
-                                    input(type="text", placeholder="Телефон").input
+                                    input(type="tel", placeholder="Телефон", name="phone", required).input
                                     span.icon.is-small.is-left: i.fa.fa-phone(aria-hidden="true")
                         .column.is-7
                             .field
                                 .control.has-icons-left
-                                    input(type="email", placeholder="E-mail").input
+                                    input(type="email", placeholder="E-mail", name="email").input
                                     span.icon.is-small.is-left: i.fa.fa-envelope(aria-hidden="true")
                     .has-text-centered
                         button.button.is-warning(type="submit") Отправить

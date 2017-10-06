@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcc288d-4d97-4400-bf35-4bf0c583097a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/combined.css" afterPath="$PROJECT_DIR$/assets/css/combined.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/scss/combined.scss" afterPath="$PROJECT_DIR$/assets/css/scss/combined.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index.pug" afterPath="$PROJECT_DIR$/jade/index.pug" />
     </list>
@@ -21,16 +20,35 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jade/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="165" column="44" lean-forward="false" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+            <state relative-caret-position="907">
+              <caret line="246" column="99" lean-forward="false" selection-start-line="246" selection-start-column="99" selection-end-line="246" selection-end-column="99" />
               <folding>
-                <marker date="1507299929214" expanded="false" signature="10615:11811" ph="..." />
-                <marker date="1507299929214" expanded="false" signature="11827:13457" ph="..." />
-                <marker date="1507299929214" expanded="false" signature="13753:15014" ph="..." />
-                <marker date="1507299929214" expanded="false" signature="15031:15149" ph="..." />
-                <marker date="1507299929214" expanded="false" signature="15188:16253" ph="..." />
-                <marker date="1507299929214" expanded="false" signature="16290:17253" ph="..." />
+                <marker date="1507302479137" expanded="false" signature="10711:11907" ph="..." />
+                <marker date="1507302479137" expanded="false" signature="13945:15206" ph="..." />
+                <marker date="1507302479137" expanded="false" signature="15223:15341" ph="..." />
+                <marker date="1507302479137" expanded="false" signature="15380:16445" ph="..." />
+                <marker date="1507302479137" expanded="false" signature="16482:17445" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mailer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watcherTasks.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/watcherTasks.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1401">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="combined.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="combined.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/scss/combined.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -126,8 +144,9 @@
         <option value="$PROJECT_DIR$/assets/css/scss/_navbar.scss" />
         <option value="$PROJECT_DIR$/assets/css/sass/base/_all.sass" />
         <option value="$PROJECT_DIR$/assets/css/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/jade/index.pug" />
         <option value="$PROJECT_DIR$/assets/css/scss/combined.scss" />
+        <option value="$PROJECT_DIR$/jade/index.pug" />
+        <option value="$PROJECT_DIR$/mailer.php" />
       </list>
     </option>
   </component>
@@ -408,12 +427,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507024192759</updated>
       <workItem from="1507024194072" duration="20840000" />
-      <workItem from="1507109891424" duration="40905000" />
+      <workItem from="1507109891424" duration="43544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61745000" />
+    <option name="totallyTimeSpent" value="64384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,12 +483,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507299929214" expanded="false" signature="10615:11811" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="11827:13457" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="13753:15014" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="15031:15149" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="15188:16253" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="16290:17253" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="10711:11907" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="13945:15206" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="15223:15341" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="15380:16445" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="16482:17445" ph="..." />
           </folding>
         </state>
       </provider>
@@ -648,21 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="165" column="44" lean-forward="false" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
-          <folding>
-            <marker date="1507299929214" expanded="false" signature="10615:11811" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="11827:13457" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="13753:15014" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="15031:15149" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="15188:16253" ph="..." />
-            <marker date="1507299929214" expanded="false" signature="16290:17253" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/scss/_features.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -675,6 +678,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/watcherTasks.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1401">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="246" column="99" lean-forward="false" selection-start-line="246" selection-start-column="99" selection-end-line="246" selection-end-column="99" />
+          <folding>
+            <marker date="1507302479137" expanded="false" signature="10711:11907" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="13945:15206" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="15223:15341" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="15380:16445" ph="..." />
+            <marker date="1507302479137" expanded="false" signature="16482:17445" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
