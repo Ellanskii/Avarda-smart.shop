@@ -52,21 +52,22 @@ html
         //if IE
           script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js')
     body
-        .container
-            nav.navbar
-                .navbar-brand
-                    a.navbar-item(href='#')
-                        img(src='assets/images/avarda_shop.svg', alt='Avarda smart shop', width="165px")
-                    .navbar-burger(data-target="navbar")
-                        span
-                        span
-                        span
-                .navbar-menu#navbar
-                    .navbar-end
-                        a.navbar-item(href="#possibilities") Возможности
-                        a.navbar-item(href="#features") Особенности
-                        a.navbar-item(href="#partners") Партнёры
-                        a.navbar-item(href="#contacts") Контакты
+        .navbar-container
+            .container
+                nav.navbar.is-transparent
+                    .navbar-brand
+                        a.navbar-item(href='#')
+                            img(src='assets/images/avarda_shop.svg', alt='Avarda smart shop', width="165px")
+                        .navbar-burger(data-target="navbar")
+                            span
+                            span
+                            span
+                    .navbar-menu#navbar
+                        .navbar-end
+                            a.navbar-item(href="#possibilities") Возможности
+                            a.navbar-item(href="#features") Особенности
+                            a.navbar-item(href="#partners") Партнёры
+                            a.navbar-item(href="#contacts") Контакты
 
         header.hero
             .hero-head
@@ -182,18 +183,27 @@ html
 
         footer.footer
             .container
+                .columns.is-centered.has-text-centered
+                    .column.is-2
+                        a(href="").has-text-white Партнёры
+                    .column.is-2
+                        a(href="").has-text-white Школа Smart.shop
+                    .column.is-2
+                        a(href="").has-text-white Интеграция с Avarda ERP
+                    .column.is-2
+                        a(href="").has-text-white Контакты
                 .socialPages.has-text-centered
                     a.hex.has-text-white(href="#")
-                        span.icon.is-large: i.fa.fa-2x.fa-vk
+                        span.icon.is-large: i.fa.fa-lg.fa-vk
                     .spacer
                     a.hex.has-text-white(href="#")
-                        span.icon.is-large: i.fa.fa-2x.fa-facebook
+                        span.icon.is-large: i.fa.fa-lg.fa-facebook
                     .spacer
                     a.hex.has-text-white(href="#")
-                        span.icon.is-large: i.fa.fa-2x.fa-twitter
+                        span.icon.is-large: i.fa.fa-lg.fa-twitter
                     .spacer
                     a.hex.has-text-white(href="#")
-                        span.icon.is-large: i.fa.fa-2x.fa-telegram
+                        span.icon.is-large: i.fa.fa-lg.fa-telegram
                     .spacer
                 .copyright.has-text-centered.has-text-grey-light © ООО «Ансофт Девелопмент»
 
