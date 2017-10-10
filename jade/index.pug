@@ -1,8 +1,8 @@
-- var appName = "Avarda smart shop";
-- var title = "Avarda smart shop — зелёный свет для Вашего бизнеса";
+- var appName = "AVARDA.SmartShop";
+- var title = "AVARDA.SmartShop — зелёный свет для Ваших побед";
 - var description = "Автоматически выгружайте базу товаров в магазин-агрегатор и получайте клиентов. Бесплатно.";
 - var statusBarColor = "#158700";
-- var metrikaId = 12345678;
+- var metrikaId = 46224927;
 - var cssFramework = "assets/css/bulma.css";
 
 - var jQueryCDN = true;
@@ -57,7 +57,7 @@ html
                 nav.navbar.is-transparent
                     .navbar-brand
                         a.navbar-item(href='#')
-                            img(src='assets/images/avarda_shop.svg', alt='Avarda smart shop', width="165px")
+                            img(src='assets/images/avarda_shop.svg', alt='AVARDA.SmartShop', width="165px")
                         .navbar-burger(data-target="navbar")
                             span
                             span
@@ -73,11 +73,23 @@ html
             .hero-head
             .hero-body.has-vcentered-content
                 .container
-                    .columns
-                        .column.is-9
-                        .column.is-3.has-text-centered
+                    .columns.is-mobile.is-multiline(style="min-height:calc(100vh - 196px);")
+                        .column.is-9-desktop.is-6-tablet.is-12-mobile.is-flex-tablet.is-last-mobile
+                            .avardaGreen.content(style="margin-top:auto;")
+                                p.
+                                    Компания АНСОФТ - разработчик ПО. Мы создаём современные технологии организации торговли во всех областях.
+                                    Для обеспечения омниканальности мы объединяем все каналы продаж в нашем "умном магазине".
+                                    Для любого покупателя важно удобно и быстро выбрать и купить товар.
+                                    Это же важно и продавцам, т.к. позволяет снижать издержки.
+                                    Мы предлагаем единое решение  с технологиями быстрого обслуживания:
+                                    интернет-магазином, «умными тележками», инфостойками и т.д.
+                                p.
+                                    На сайте размещены реальные товары настоящих магазинов, подключённых к нашему проекту.
+                                    Сайт не является конкурентом этих компаний, наоборот, мы помогаем повысить их продажи и
+                                    одновременно демонстрируем наши возможности.
+                        .column.is-3-desktop.is-6-tablet.is-12-mobile.has-text-centered
                             img(src="assets/images/logo_header.png")
-                            h1.title.avardaGreen Зелёный свет для Вашего бизнеса!
+                            h1.title.avardaGreen Зелёный свет для Ваших побед!
             a(href="#possibilities").has-text-white
                 .hero-foot.has-text-centered.cellular
                     span.icon.is-large: i.fa.fa-chevron-down
@@ -100,7 +112,7 @@ html
                                 li
                                     h2.avardaGreen Личный интернет-магазин
                                     p.
-                                        Вы можете создать свой интернет-магазин на базе AVARDA Smart.shop с полной интеграцией
+                                        Вы можете создать свой интернет-магазин на базе AVARDA.SmartShop с полной интеграцией
                         .column.is-4.is-hidden-touch.has-vcentered-content
                             .spider
                                 img(src="assets/images/spider.png")
@@ -109,15 +121,15 @@ html
                                 li
                                     h2.avardaGreen Умная тележка
                                     p.
-                                        В Smart.shop Вы получаете QR-код заказа, и с помощью умной тележки можете найти все свои покупки
+                                        В AVARDA.SmartShop Вы получаете QR-код заказа, и с помощью умной тележки можете найти все свои покупки
                                 li
                                     h2.avardaGreen Подключение личного интернет-магазина
                                     p.
-                                        Вы можете подключить свой личный интернет-магазин к Smart.shop, с полной интеграцией товара через AVARDA
+                                        Вы можете подключить свой личный интернет-магазин к AVARDA.SmartShop, с полной интеграцией товара через AVARDA
                                 li
                                     h2.avardaGreen Доставка
                                     p.
-                                        Оформляя заказы через Smart.shop, Вы получаете возможность доставки товара по указанному адресу
+                                        Оформляя заказы через AVARDA.SmartShop, Вы получаете возможность доставки товара по указанному адресу
                     .has-text-centered
                         button.modal-toggle.button.is-warning(data-target='modal') Подключить магазин
 
@@ -136,7 +148,7 @@ html
                         .column.is-half.content.is-medium
                             ol
                                 li.
-                                    Заказывая товар в интернет-магазине Smart.shop,
+                                    Заказывая товар в интернет-магазине AVARDA.SmartShop,
                                     Вам автоматически присваивается номер заказа и QR-код.
                                     Это упрощает процесс покупки в супермаркете.
                                 li.
@@ -144,10 +156,10 @@ html
                                     всю необходимую информацию о Вашей покупке.
                                 li.
                                     Вам не нужно бродить по всему залу, на дисплее будет отображено,
-                                    в какой секции и на какой полке находится товар, заказанный через Smart.shop
+                                    в какой секции и на какой полке находится товар, заказанный через AVARDA.SmartShop
                                 li.
                                     Полная информация о товаре супермаркета, акции и новые выгодные предложения -
-                                    всё это Вы сможете получить пользуясь услугами Smart.shop
+                                    всё это Вы сможете получить пользуясь услугами AVARDA.SmartShop
                     .has-text-centered
                         button.modal-toggle.button.is-warning(data-target='modal') Подключить магазин
 
@@ -162,9 +174,9 @@ html
                         .column.is-6-desktop.is-12-mobile.is-8-tablet.star
                             .columns.has-text-centered.is-mobile
                                 .column.is-4.has-vcentered-content
-                                    a(href="#").has-margin-auto: img(src="assets/images/lider.png", alt="Лидер")
+                                    a(href="/catalog/lider_60021861/").has-margin-auto: img(src="assets/images/lider.png", alt="Лидер")
                                 .column.is-4
-                                    a(href="/shop.php").has-margin-auto: img(src="assets/images/baucenter.png", alt="Бауцентр")
+                                    a(href="/catalog/bau_tsentr_256000185/").has-margin-auto: img(src="assets/images/baucenter.png", alt="Бауцентр")
                                     img(src="assets/images/logo_header.png", alt="").has-margin-auto
                                 .column.is-4.has-vcentered-content
                                     a(href="#").has-margin-auto: img(src="assets/images/polushka.png", alt="Полушка")
@@ -178,7 +190,7 @@ html
                 .container
                     h1.title.has-text-centered.is-spaced Оставить заявку
                     h2.subtitle.has-text-centered.
-                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
+                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA.SmartShop?
                         Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
                     form(action="mailer.php", method="post")
                         .columns.is-centered
@@ -206,7 +218,7 @@ html
                     .column.is-2
                         a(href="").has-text-white Партнёры
                     .column.is-2
-                        a(href="").has-text-white Школа Smart.shop
+                        a(href="").has-text-white Школа AVARDA.SmartShop
                     .column.is-2
                         a(href="").has-text-white Интеграция с AVARDA.ERP
                     .column.is-2
@@ -232,7 +244,7 @@ html
             .modal-content.box
                 h1.title.has-text-centered.is-spaced Оставить заявку
                     h2.subtitle.has-text-centered.
-                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA Smart.shop?
+                        У Вас есть свой интернет магазин, или Вы хотели бы создать его на базе AVARDA.SmartShop?
                         Оставьте свой контактные данные, и мы ответим Вам в ближайшее время
                 form(action="mailer.php", method="post")
                     .columns.is-centered.is-multiline
