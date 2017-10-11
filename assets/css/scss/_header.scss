@@ -9,7 +9,7 @@ header{
   background:url(../images/hex-bg.png),linear-gradient(180deg, #828282 0%,#4F4F4F 100%);
   background-size: 7px,100%;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .is-last-mobile{
     order:999;
   }
