@@ -23,3 +23,10 @@ $avardaGreen: #7AAA1C;
 .avardaGreen{
   color:$avardaGreen !important;
 }
+.has-shadow{
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+}
+.has-overlay{
+  background: rgba(21,21,21,0.7);
+  padding: 1rem;
+}
