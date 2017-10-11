@@ -31,7 +31,7 @@ header {
 
 @media screen and (min-width: 769px) {
   header .hero-body {
-    background: url(../images/arc-top.png) no-repeat top, url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(to bottom, transparent 0%, transparent 90%, #828282 100%), url(../images/auto.png) no-repeat left top, black;
+    background: url(../images/arc-top.png) no-repeat top, url(../images/arc-bottom.png) no-repeat bottom, url(../images/hex-bg.png), linear-gradient(to bottom, transparent 0%, transparent 90%, #828282 100%), url(../images/auto.jpg) no-repeat left top, black;
     background-size: contain,contain,10px,100%,60%; } }
 
 #features ol {
